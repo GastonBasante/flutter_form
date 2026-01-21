@@ -22,5 +22,11 @@ final GoRouter router = GoRouter(
         return BlocCounterScreen();
       },
     ),
+    GoRoute(
+      path: '/new-user',
+      builder: (BuildContext context, GoRouterState state) {
+        return RegisterScreen();
+      },
+    ),
   ],
 );
